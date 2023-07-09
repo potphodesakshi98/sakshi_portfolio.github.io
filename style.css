@@ -1,0 +1,243 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 152, 255);
+}
+h1{
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%,0);
+}
+#inner{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    height: 600px;
+    /* background-color: red; */
+    /* padding-top: 2%; */
+}
+#one{
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    height: 110px;
+    background-color:rgb(109, 204, 221);
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: anima1;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    
+    /* margin-bottom: 2px; */
+}
+#one:hover{
+    background-color: #fff;
+    color: black;
+}
+#one p{
+    font-size: 15px;
+    font-weight: 600;
+}
+@keyframes anima1 {
+    0%{
+        top: -10%;
+        /* left: -10%; */
+        /* opacity: 1; */
+    }
+    100%{
+        top: 5%;
+        /* left: 0%; */
+        /* opacity: 0; */
+    }
+}
+/* @keyframes anima1 {
+    0%{
+
+    }
+    
+} */
+#two{
+    position: absolute;
+    top: 24%;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(109, 204, 221);
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: anima2;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    /* margin-bottom: 2px; */
+}
+#two:hover{
+    background-color: #fff;
+    color: black;
+}
+#two p{
+    font-size: 15px;
+    font-weight: 600;
+}
+#inner h3{
+    position: absolute;
+    top: 38%;
+    font-size: 25px;
+    animation-name: anima6;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes anima6 {
+    0%{
+        /* top: -10%; */
+        /* left: -10%; */
+        opacity: 0;
+    }
+    100%{
+        /* top: 24%; */
+        opacity: 1;
+
+    }
+}
+@keyframes anima2 {
+    0%{
+        top: -10%;
+        /* left: -10%; */
+        /* opacity: 1; */
+    }
+    100%{
+        top: 24%;
+    }
+}
+#third{
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    top: 43%;
+    background-color: rgb(109, 204, 221);
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: anima3;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    margin-bottom: 2px;
+}
+#third:hover{
+    background-color: #fff;
+    color: black;
+}
+#third p{
+    font-size: 15px;
+    font-weight: 600;
+}
+@keyframes anima3 {
+    0%{
+        top: -10%;
+        /* left: -10%; */
+        /* opacity: 1; */
+    }
+    100%{
+        top: 43%;
+    }
+}
+#fouth{
+    top: 60%;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(109, 204, 221);
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: anima4;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+    margin-bottom: 2px;
+}
+#fouth:hover{
+    background-color: #fff;
+    color: black;
+}
+#fouth p{
+    font-size: 15px;
+    font-weight: 600;
+}
+@keyframes anima4 {
+    0%{
+        top: -10%;
+        /* left: -10%; */
+        /* opacity: 1; */
+    }
+    100%{
+        top: 60%;
+    }
+}
+#fifth{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 130px;
+    background-color:rgb(109, 204, 221);
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: anima5;
+    animation-duration: 5s;
+    
+    margin-bottom: 2px;
+}
+#fifth:hover{
+    background-color: #fff;
+    color: black;
+}
+#inner h4{
+    position: absolute;
+    top: 80%;
+    font-size: 25px;
+    animation-name: anima7;
+    animation-duration: 5s;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes anima7
+ {
+    0%{
+       
+        opacity: 0;
+    }
+    100%{
+        /* top: 24%; */
+        opacity: 1;
+    }
+}
+
+#fifth p{
+    font-size: 15px;
+    font-weight: 600;
+}
+@keyframes anima5 {
+    0%{
+        top: -10%;
+        /* left: -10%; */
+        /* opacity: 1; */
+    }
+    100%{
+        top: 85%;
+    }
+}
+ #one h2{
+    /* position: absolute; */
+    /* top: 10%; */
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
